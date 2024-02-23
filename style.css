@@ -160,9 +160,10 @@ span {
 }
 
 
-/* shot section */
+/* shop section */
 .shop-section {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-evenly;
   background-color: #e2e7e6;
 }
@@ -186,4 +187,37 @@ span {
 .box-content {
   margin-left: 1rem;
   margin-right: 1rem;
+}
+
+/* footer section */
+footer {
+  margin-top: 20px;
+}
+.foot-panel1 {
+  background-color: #37475a;
+  color: white;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.85rem;
+}
+.foot-panel2 {
+  background-color: #10161e;
+  color: white;
+  height: 400px;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 2rem;
+}
+
+ul {
+  margin-top: 25px;
+}
+
+ul a {
+  display: block;
+  font-size: 0.85rem;
+  margin-top: 10px;
+  color: #dddddd;
 }
